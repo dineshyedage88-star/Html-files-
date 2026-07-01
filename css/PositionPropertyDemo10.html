@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <title>Document</title>
+    <style>
+        #container {
+            height: 5000px;
+            width: 500px;
+            border: 2px solid rgb(6, 4, 36);
+            margin: auto;
+            padding: 10px;
+            background-color: lightblue;
+        }
+
+        .b {
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            border: 2px solid rgb(1, 11, 16);
+            margin: 22px;
+            text-align: center;
+            color: blue;
+        }
+
+        /* #box2 {
+            position: absolute;
+            top: 10px;
+            left: 30px;
+        } */
+
+        /* #box2 {
+            position: relative;
+            top: 10px;
+            left: 30px;
+        } */
+
+        #box2 {
+            position: fixed;
+            right: 3px;
+        }
+
+        #box2 {
+            position: sticky;
+            top: 50px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <div id="box1" class="b">Box1</div>
+        <div id="box2" class="b">Box2</div>
+        <div id="box3" class="b">Box3</div>
+    </div>
+</body>
+
+</html>
